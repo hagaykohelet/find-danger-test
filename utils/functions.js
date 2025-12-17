@@ -89,9 +89,9 @@ export async function findDangerousPeople() {
             if (call.content.includes("attack")){
                  attack +=  1
                 }  
-            result[call.age] = [knife,death,bomb,attack]
-            }
-            console.log(result) }
+            result[call.age]  = [knife ,death , bomb , attack]
+        }
+        console.log(result)   }
     catch (err) {
         console.log(err)
     }
